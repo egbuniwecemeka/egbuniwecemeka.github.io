@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: slateblue;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem 0;
+}
+main{
+    background-color: slateblue;
+    margin-top: 0;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: maroon;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 0 2rem;
+    
+    font-size: larger;
+   
+}
+ul{
+    color: black;
+    float: right;
+}
+main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#welcome-section{
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    color: skyblue;
+    height: 350px;
+    padding-top: 5rem;
+    margin: 1rem 0;
+}
+#projects{
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    
+    
+} 
+.flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+#profile-link{
+    font-size: 25px;
+    text-decoration: none;
+    background-color: maroon;
+    padding: 0.5rem;
+    color: black;
+    font-weight: 800;   
+}
+.profile-link{
+    text-align: center;
+}
+.foot1{
+    text-align: center;  
+    margin: 0.5rem 29rem;
+    padding: 0.5rem;
+    font-size: 20px;
+    color: maroon;
+    font-weight: 800;
+    background-color: black;
+    width: auto;
+}
+.foot2{
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 1rem;
+}
+.image1{
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.image2{
+    margin: 1rem;
+    padding-top: 0.9rem;
+}
+footer{
+    font-size: 20px;
+}
+@media (max-width:800px){
+    footer{font-size: 22px;}
+}
