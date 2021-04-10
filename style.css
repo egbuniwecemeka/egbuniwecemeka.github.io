@@ -1,0 +1,81 @@
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav img {
+    height: 25px;
+}
+
+.gog_img {
+    height: 120px;
+}
+
+main {
+    width: 50%;
+    margin: 9.7rem auto;
+    text-align: center;
+}
+
+input {
+    width: 65%;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.gog-btns {
+    margin: 0.5rem 0.2rem;
+}
+
+.gog-btns button {
+    border-radius: 0.2rem;
+    border: none;
+    padding: 0.4rem;
+}
+
+footer {
+    background-color: rgb(231, 229, 229);
+}
+
+.footer-top {
+    padding: 0.7rem;
+}
+
+.footer-bottom {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+}
+
+.left a {
+    margin: 0.5rem;
+}
+
+.right a {
+    margin: 0.5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
